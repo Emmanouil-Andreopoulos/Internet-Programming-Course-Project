@@ -1,0 +1,4 @@
+#RewriteEngine On
+
+#RewriteRule ^display/([a-zA-Z0-9_-]+)$ display.php?uname=$1
+#RewriteRule ^display/([a-zA-Z0-9_-]+)/$ display.php?uname=$1
